@@ -39,8 +39,8 @@ struct ContentView: View {
     @State var animate: Bool = false
     
     let secondaryAccentColor = Color("SecondaryAccentColor")
-    let titles = ["love", "race", "home"]
-    let systemImages = ["heart.fill", "flag.checkered", "house.fill"]
+    let titles = ["love", "race", "play"]
+    let systemImages = ["heart.fill", "flag.checkered", "playstation.logo"]
     
     var body: some View {
         VStack(spacing: 50) {
