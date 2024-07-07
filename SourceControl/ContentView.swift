@@ -31,16 +31,20 @@ struct ContentView: View {
     @State var animate: Bool = false
     
     let secondaryAccentColor = Color("SecondaryAccentColor")
+    let titles = ["love", "race", "home"]
+    let systemImages = ["heart.fill", "flag.checkered", "house.fill"]
     
     var body: some View {
-        VStack {
-            Label("LOVE", systemImage: "heart.fill")
-                .foregroundStyle(Color(UIColor.systemBackground))
-                .font(.headline)
-                .frame(height: 55)
-                .frame(maxWidth: .infinity)
-                .background(animate ? secondaryAccentColor : Color.accentColor)
-                .cornerRadius(15)
+        VStack(spacing: 30) {
+            ForEach(0..<3) { index in
+                Label(titles[index].uppercased(), systemImage: systemImages[index])
+                    .foregroundStyle(Color(UIColor.systemBackground))
+                    .font(.headline)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
+                    .background(animate ? secondaryAccentColor : Color.accentColor)
+                    .cornerRadius(15)
+            }
         }
         .padding(.horizontal, animate ? 30 : 50)
         .shadow(
