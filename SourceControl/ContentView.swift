@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Add a Task")
+            Image(systemName: "heart.fill")
                 .foregroundStyle(Color(UIColor.systemBackground))
                 .font(.headline)
                 .frame(height: 55)
