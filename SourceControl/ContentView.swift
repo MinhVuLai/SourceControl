@@ -43,7 +43,7 @@ struct ContentView: View {
     let systemImages = ["heart.fill", "flag.checkered", "playstation.logo"]
     
     var body: some View {
-        VStack(spacing: 50) {
+        VStack(spacing: 40) {
             
             Spacer()
             
