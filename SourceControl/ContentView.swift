@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "heart.fill")
+            Label("LOVE", systemImage: "heart.fill")
                 .foregroundStyle(Color(UIColor.systemBackground))
                 .font(.headline)
                 .frame(height: 55)
