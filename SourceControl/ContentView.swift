@@ -71,7 +71,7 @@ struct ContentView: View {
                 .frame(maxWidth: .infinity)
                 .background(animate ? secondaryAccentColor : Color.accentColor)
                 .cornerRadius(15)
-            .padding(.horizontal, animate ? 50 : 70)
+            .padding(.horizontal, animate ? 55 : 80)
             .shadow(
                 color: animate ? secondaryAccentColor.opacity(0.7) : Color.accentColor.opacity(0.7),
                 radius: animate ? 30 : 10,
