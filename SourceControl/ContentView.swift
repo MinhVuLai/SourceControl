@@ -53,17 +53,24 @@ struct ContentView: View {
                 .frame(width: animate ? 200 : 100, height: animate ? 200 : 100)
                 .foregroundStyle(animate ? secondaryAccentColor : Color.accentColor)
             
-            Spacer()
+//            Spacer()
             
-            ForEach(0..<3) { index in
-                Label(titles[index].uppercased(), systemImage: systemImages[index])
-                    .foregroundStyle(Color(UIColor.systemBackground))
-                    .font(.headline)
-                    .frame(height: 55)
-                    .frame(maxWidth: .infinity)
-                    .background(animate ? secondaryAccentColor : Color.accentColor)
-                    .cornerRadius(15)
-            }
+//            ForEach(0..<3) { index in
+//                Label(titles[index].uppercased(), systemImage: systemImages[index])
+//                    .foregroundStyle(Color(UIColor.systemBackground))
+//                    .font(.headline)
+//                    .frame(height: 55)
+//                    .frame(maxWidth: .infinity)
+//                    .background(animate ? secondaryAccentColor : Color.accentColor)
+//                    .cornerRadius(15)
+//            }
+            Label("LOVE", systemImage: "heart.fill")
+                .foregroundStyle(Color(UIColor.systemBackground))
+                .font(.headline)
+                .frame(height: 55)
+                .frame(maxWidth: .infinity)
+                .background(animate ? secondaryAccentColor : Color.accentColor)
+                .cornerRadius(15)
             .padding(.horizontal, animate ? 50 : 70)
             .shadow(
                 color: animate ? secondaryAccentColor.opacity(0.7) : Color.accentColor.opacity(0.7),

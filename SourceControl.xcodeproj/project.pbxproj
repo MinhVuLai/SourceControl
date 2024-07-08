@@ -12,6 +12,7 @@
 		094F08DE2C39CF51000BF7D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094F08DD2C39CF51000BF7D8 /* Assets.xcassets */; };
 		094F08E22C39CF51000BF7D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094F08E12C39CF51000BF7D8 /* Preview Assets.xcassets */; };
 		09931F202C3A77A500C0787B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09931F1F2C3A77A500C0787B /* HomeView.swift */; };
+		09E74C692C3BDA9B0093D32B /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E74C682C3BDA9B0093D32B /* PlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		094F08DF2C39CF51000BF7D8 /* SourceControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SourceControl.entitlements; sourceTree = "<group>"; };
 		094F08E12C39CF51000BF7D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09931F1F2C3A77A500C0787B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		09E74C682C3BDA9B0093D32B /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				094F08DF2C39CF51000BF7D8 /* SourceControl.entitlements */,
 				094F08E02C39CF51000BF7D8 /* Preview Content */,
 				09931F1F2C3A77A500C0787B /* HomeView.swift */,
+				09E74C682C3BDA9B0093D32B /* PlayView.swift */,
 			);
 			path = SourceControl;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			files = (
 				09931F202C3A77A500C0787B /* HomeView.swift in Sources */,
 				094F08DC2C39CF50000BF7D8 /* ContentView.swift in Sources */,
+				09E74C692C3BDA9B0093D32B /* PlayView.swift in Sources */,
 				094F08DA2C39CF50000BF7D8 /* SourceControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
