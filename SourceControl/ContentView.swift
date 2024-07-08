@@ -65,7 +65,7 @@ struct ContentView: View {
 //                    .cornerRadius(15)
 //            }
             Label("LOVE", systemImage: "heart.fill")
-                .foregroundStyle(Color(UIColor.systemBackground))
+                .foregroundStyle(.black)
                 .font(.headline)
                 .frame(height: 55)
                 .frame(maxWidth: .infinity)
